@@ -1,0 +1,27 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.inputWrapper, .buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 767px){
+    .inputWrapper {
+        width: 100%;
+        padding: 0 0 $base-size 0;
+    }
+    .buttonWrapper {
+        width: 100%;
+        padding: 0 0 $base-size 0;
+
+    }
+}
