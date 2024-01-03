@@ -16,7 +16,7 @@
   }
 
   a:hover {
-    color: $color-success;
+    color: $color-warning;
   }
 
   ul {
@@ -26,6 +26,10 @@
     align-items: center;
     gap: ($base-size * 2);
     list-style-type: none;
+
+    .linkActive {
+      color: $color-warning;
+    }
 
     a {
       font-size: ($base-size * 1.6);
