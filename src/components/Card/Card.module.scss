@@ -24,4 +24,7 @@ i {
       color: $color-warning;
       transform: scale(1.2);
     }
+    &:hover {
+      color: $color-warning;
+    }
   }
